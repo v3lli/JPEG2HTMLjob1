@@ -1,0 +1,148 @@
+*{
+    /* font-family: sans-serif; */
+    font-family: 'Sintony', sans-serif;
+    color: #222222;
+}
+body{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    padding: 15px;
+    width: 444px;
+    height: 988px;
+    background-image: linear-gradient(to bottom , #fdfdfd, #c2c2c2) ;
+    /* border: 1px solid red; */
+    flex-direction: column;
+    padding-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    
+    
+}
+header{
+    display: flex;
+    flex-direction: row;
+    align-self:stretch;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+    
+}
+
+.diamond{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    background-color: orange;
+    width: 12%;
+    height:5% ;
+    align-self: center;
+    margin-top: 5px;
+    
+}
+.diamond img{
+    widows: 75%;
+    height: 75%;
+}
+
+.sometext{
+    text-align: center;
+}
+
+.pricing{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    align-self: center;
+    background-color:#fdfafa;
+    border-radius: 10px;
+    height:65px;
+    align-content: center;
+    box-shadow: 1px 2px 1px 0px rgba(0, 0, 0, 0.2);
+}
+.pricing-sub{
+    
+    width: 65%;
+    align-self: center ;
+    background-color: orange;
+    height:40px ;
+    border-radius: 8px;
+    margin-top: -15px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.manymany{
+    list-style-image: url("Group2.svg");
+    width: 80%;
+    margin: 0 auto;
+}
+.orange{
+    color: orange;
+}
+
+.bigger{
+font-size: 1rem;
+}
+
+.huge{
+    font-size: 1.4rem;
+}
+
+.greyed{
+ color: rgb(151, 150, 150);
+}
+
+.black{
+    color:#444444;
+}
+
+.smaller{
+    font-size: 0.8rem;
+    
+}
+.smallest{
+    font-size: 0.7rem;
+}
+
+.light{
+    font-weight: 100;
+}
+
+.cruiser{
+    font-weight: 500;
+}
+
+.heavy{
+    font-weight: 700;
+}
+.mlp{
+    margin-left: 2rem;
+    height: 100%;
+}
+.mrp{
+    margin-right: 2rem;
+    text-align: center;
+    height: 100%;
+}
+.nlh{
+    line-height: 0px;
+    font-size: 0.6rem;
+}
+
+.pricing div{
+    /* padding-bottom: 3rem; */
+    padding-top: 0.3rem;
+}
+
+.white{
+    color: #f8f8f8;
+}
+.space1{
+    margin-bottom: 0.8rem;
+}
