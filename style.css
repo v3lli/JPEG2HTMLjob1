@@ -43,6 +43,20 @@ header{
     margin-top: 5px;
     
 }
+
+.quarter{
+    display: flex;
+    justify-content: baseline;
+    
+    width: 12%;
+    height:60%;
+    margin-right: -4%;
+    margin-top: -5%;
+    background-color: orange;
+    border-radius: 100%;
+    
+    
+}
 .diamond img{
     widows: 75%;
     height: 75%;
@@ -62,6 +76,8 @@ header{
     height:65px;
     align-content: center;
     box-shadow: 1px 2px 1px 0px rgba(0, 0, 0, 0.2);
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 .pricing-sub{
     
@@ -132,7 +148,7 @@ font-size: 1rem;
 }
 .nlh{
     line-height: 0px;
-    font-size: 0.6rem;
+    font-size: 0.5em;
 }
 
 .pricing div{
